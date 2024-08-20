@@ -1,0 +1,75 @@
+body{
+  background-color: black;
+}
+.box{
+  display: flex;
+  border-radius: 20px;
+  background-color: aliceblue;
+  padding: 10px;
+  left:50%;
+  top:90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+
+}
+.but{
+  border: none;
+  font-size: medium; 
+  margin-left: 15px;
+}
+.black{
+  color: aliceblue;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.red{
+  background-color: red;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.green{
+  background-color: green;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.blue{
+  background-color: blue;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.olive{
+  background-color: olive;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.gray{
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.yellow{
+  background-color: yellow;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.pink{
+  background-color: pink; 
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.purple{
+  background-color: purple;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.lavender{
+  background-color: lavender;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.white{
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
