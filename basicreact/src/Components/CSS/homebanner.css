@@ -1,0 +1,163 @@
+@font-face {
+  font-family: inter;
+  src: url(Inter-Regular.woff);
+}
+.homebanner-sec {
+    background-image: url(backgroundimages/Homebanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     padding: 2em 0;
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+   }
+   .homebanner{
+    display: flex;
+    justify-content: center;
+   }
+ 
+   .homebanner-content {
+    
+     margin-left: 50px;
+     margin-right: 108px;
+     padding-bottom: 100px;
+     padding-top: 100px;
+     
+   }
+   
+   .homebanner-content h1 {
+   
+   color: #F3F3F3;
+     font-family:inter;
+     font-weight: 600;
+     font-size: 56px;
+     margin-bottom: 29px;
+     
+   }
+   
+   .homebanner-content p {
+    color: #CDCDCD;
+     font-family:inter;
+     font-weight: 400;
+     font-size: 15px;
+     margin-bottom: 2.5em;
+   }
+   .homebanner-content h6 {
+    color: #F3F3F3;
+     font-family:inter;
+     font-weight: 500;
+     font-size: 20px;
+     margin-bottom: -20px;
+   }
+  
+   .contact-form {
+     background: #fff;
+     font-family:inter;
+     font-weight: 600;
+     padding: 2em 1.25em;
+     margin: auto;
+     border-radius: 5px;
+   }
+   
+   .contact-form h2 {
+     font-family:inter;
+     font-weight:500;
+     font-size:26px ;
+line-height:31.47p;
+     margin-top: 0;
+   }
+   .contact-form p{
+     font-family:inter;
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 26px;
+    
+   }
+   
+   .contact-form form {
+     display: flex;
+     flex-direction: column;
+   }
+   
+   .contact-form form input,
+   .contact-form form textarea {
+     margin-bottom: 1.5em;
+     padding: 1em;
+     border: none;
+     background-color: #ECECEC;
+     border-radius: 5px;
+   }
+   .contact-form form input::placeholder,
+   .contact-form form textarea::placeholder{
+    color: #ACACAC;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+   }
+
+   .select_box{
+    margin-bottom: 1.5em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #ECECEC;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+    position: relative;
+  }
+  .select_box:after{
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #f60;
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    content: "";
+    z-index: 98;
+   }
+  .select_box select{
+    right: 5px;
+    position: relative;
+    border: none;
+    z-index: 99;
+    background: none;
+  }
+  
+
+   
+   .contact-form form button {
+     background: #f60;
+     color: #F3F3F3;
+     padding-top: 12px;
+     padding-bottom: 12px;
+     padding-left: 32px;
+     padding-right: 32px;
+     font-weight: 600;
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+     margin-bottom: 1em;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 16px;
+     letter-spacing: 1px;
+   }
+   .contact-form form button:hover{
+    background:#fff;
+    color:black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+     font-weight: 600;
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+     margin-bottom: 1em;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 16px;
+     letter-spacing: 1px;
+   }

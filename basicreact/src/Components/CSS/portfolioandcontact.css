@@ -1,0 +1,304 @@
+@font-face {
+    font-family: inter;
+    src: url(Inter-Regular.woff);
+  }
+.portfolioandcontact{
+  background-image: url(backgroundimages/curvebackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+  .content{
+    display: flex;
+    font-family: inter;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20em;
+    padding-bottom: 8em;
+    row-gap: 0px;
+    margin-top: 150px;
+    margin-bottom: -60px;
+    }
+    
+    
+    .content h3{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #F0592A;
+        margin-bottom: 14px;
+    }
+    
+    .content h1{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43.2px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 14px;
+        margin-bottom: 17px;
+    }
+    .content img{
+        margin-bottom: 16px;
+    }
+    .content p{
+        margin: 0;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+        color: #666;
+       text-align: center;
+    }
+
+    .r1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 74.28px;
+        margin-left: 29.97px;
+        margin-right: 29.97px;
+    }
+    .r2{
+        display: flex;
+        justify-content: center;
+         margin-left: 29.97px;
+        margin-right: 29.97px;
+    }
+    .buttonhei{
+        font-family: inter;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        background:#FFFFFF;
+        color:#1B1B1B;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 78px;
+        padding-right: 78px;
+        text-decoration: none;
+        border-radius: 5px;
+       margin-left: 32px;
+    }
+    .buttonhei:hover{
+        font-family: inter;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        background: #f60;
+        color: #fff;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 78px;
+        padding-right: 78px;
+        text-decoration: none;
+        border-radius: 5px;
+       margin-left: 32px;
+    }
+
+    .logodesigning{
+        margin-right: 24px;
+    }
+
+    .appdevelopment{
+        margin-right: 24px;
+    }
+    .webdesigning{
+        margin-right: 24px; 
+    }
+    .viewall{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-family: inter;
+        background: #f60;
+        color: #fff;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1px;
+     
+    }
+    .viewall:hover{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-family: inter;
+        background:#fff;
+        color:black;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1px;
+     
+    }
+
+    .rowbutton {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+/* CONTACT US */
+  .contactusss {
+    display: flex;
+    justify-content: center;
+    margin-top: 149.71px;
+  }
+  
+  .contact-content {
+    margin-right: 255px;
+    margin-bottom: 151px;
+    margin-top: 35px;
+  }
+  
+  .contact-content h1 {
+    color: #1b1b1b;
+    font-family: inter;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+  .contact-content h6 {
+    color: #f0592a;
+    font-family: inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .contactus-form {
+    background: #fff;
+    font-family: inter;
+    font-weight: 600;
+    padding-top: 58.29px;
+    padding-bottom: 57.71px;
+    padding-left: 49px;
+    padding-right: 49px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .contactus-form h2 {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31.47p;
+    margin-top: 0;
+  }
+  .contactus-form p {
+    font-family: inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 32px;
+  }
+  
+  .contactus-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contactus-form form input,
+  .contactus-form form select {
+    margin-bottom: 16px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #ececec;
+    border-radius: 5px;
+  }
+  .contactus-form form textarea {
+    margin-bottom: 40px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #ececec;
+    border-radius: 5px;
+  }
+  
+  .contactus-form form input::placeholder,
+  .contactus-form form textarea::placeholder,
+  .contactus-form form select::placeholder {
+    color: #acacac;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+  }
+  
+  .contactus-form form button {
+    background: #f60;
+    color: #f3f3f3;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 1em;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+  }
+  .contactus-form form button:hover {
+    background: #fff;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 1em;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .loeinfo {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin-left: -37px;
+  }
+  
+  .loeimages ul {
+    list-style: none;
+  }
+  .loeimages ul li {
+    margin-bottom: 38px;
+  }
+  
+  .loetext ul li {
+    margin-bottom: 51px;
+  }
+  
+  .loetext ul {
+    list-style: none;
+    margin-left: -17px;
+  }
+  
+  .loetext ul li h1 {
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .loetext ul li p {
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: -10px;
+  }
+  
