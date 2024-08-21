@@ -1,0 +1,64 @@
+body{
+  background-color: black;
+}
+.passgen{
+  border-radius: 20px;
+  padding: 35px 35px;
+  background-color: gray;
+ top : 40%;
+ left: 50%;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ text-align: center;
+}
+#title{
+  color: white;
+
+}
+.text{
+  color: white
+}
+#password{
+  height: 42px;
+  width: 290px;
+  color: rgb(0, 255, 170);
+  border-radius: 10px;
+  border-top-right-radius: 0px ;
+  border-bottom-right-radius: 0px;
+  border: none;
+}
+
+#password:hover{
+  height: 42px;
+  width: 290px;
+  background-color: black;
+  color: rgb(0, 255, 170);
+  border-radius: 10px;
+  border-top-right-radius: 0px ;
+  border-bottom-right-radius: 0px;
+  border: none;
+}
+
+#copy{
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+  border-radius: 10px;
+  border: none;
+  padding-right: 25px;
+    background-color: blue;
+    border-top-left-radius: 0px ;
+    border-bottom-left-radius: 0px;
+}
+#copy:hover{
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+  border-radius: 10px;
+  border: none;
+  padding-right: 25px;
+    background-color: rgb(8, 148, 184);
+    border-top-left-radius: 0px ;
+    border-bottom-left-radius: 0px;
+}
+#options{
+  margin-top : 5px
+}
