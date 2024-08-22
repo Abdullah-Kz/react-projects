@@ -16,8 +16,8 @@ function App() {
     if (Characters) {
       chars += '!@#$%^&*()_+'
     }
-    for (let i = 1; i < length; i++) {
-      pass += chars.charAt(Math.floor(Math.random() * chars.length + 1))
+    for (let i = 0; i < length; i++) {
+      pass += chars.charAt(Math.floor(Math.random() * chars.length))
     }
     setPassword(pass)
   }, [length, Numbers, Characters,setPassword])
@@ -68,7 +68,6 @@ const truefalsechcker = (val) => {
         />
         <label className = 'text'>Length : {length}</label>
         <input
-        className = "checkbox"
         id = 'numcheck'
         type = 'checkbox'
         defaultChecked = {Numbers}
@@ -79,7 +78,6 @@ const truefalsechcker = (val) => {
         />
         <label className = 'text'>Numbers</label>
         <input
-        className = "checkbox"
         id = 'charcheck'
         type = 'checkbox'
         defaultChecked = {Characters}
